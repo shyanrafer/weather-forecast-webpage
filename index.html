@@ -10,6 +10,33 @@
   <header>
     <h1>Weather Forecast</h1>
   </header>
+  
+  <main>
+    <div id="search-field-container">
+      <div id="search-form-div">
+        <form id="search-form">
+          <h2>Search for a city</h2>
+          <input type="text" id="location-search" placeholder="Enter a location">
+          <button id="form-search-btn">Search</button>
+        </form>
+      </div>
+
+      <div id="past-searches"></div>
+    </div>
+
+    <div id="city-main-container">
+      <h2 id="city-name"></h2>  
+      <!-- we want the city name and date for the h2 so will have to add together in js -->
+      <p id="city-temp"></p>
+      <p id="wind-speed"></p>
+      <p id="humidty"></p>
+    </div>
+
+    <div id="five-day-container">
+      <h3>Five day forecast</h3>
+      <div id="five-day-cards"></div>
+    </div>
+  </main>
   <script src="./assets/script.js"></script>
 </body>
 </html>
