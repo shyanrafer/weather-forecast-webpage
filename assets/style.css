@@ -10,7 +10,29 @@ body {
 }
 
 h1 {
-  margin: 10px 0px;
-  text-align: center;
+  background-color: blueviolet;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+#search-field-container {
+  border-bottom: solid 2px;
+  padding-bottom: 10px;
+  width: 25%;
+  /* height: 100vh; */
+}
+
+#search-form-div {
+  border: solid 1px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-height: 199px;
+}
+
+#search-form {
+  }
