@@ -3,40 +3,38 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Weather Forecast</title>
+  <title>Weather Forecast App</title>
   <link rel="stylesheet" href="./assets/style.css">
 </head>
+<!-- new approach to html -->
 <body>
   <header>
-    <h1>Weather Forecast</h1>
+    <h1>Weather Forecast App</h1>
+    <a href="https://github.com/shyanrafer/weather-forecast-webpage" target="_blank"><p>By: shyanrafer</p></a>
   </header>
-  
+
   <main>
     <div id="search-field-container">
-      <div id="search-form-div">
-        <form id="search-form">
-          <h2>Search for a city</h2>
-          <input type="text" id="location-search" placeholder="Enter a location">
-          <button onclick="getWeather()" id="form-search-btn">Search</button>
-        </form>
-      </div>
-
-      <div id="past-searches"></div>
+      <input type="text" id="location-search" placeholder="Enter city">
+      <button onclick="getWeather()" id="get-weather-btn">Get Weather</button>
     </div>
-
-    <div id="city-main-container">
-      <h2 id="city-name"></h2>  
-      <!-- we want the city name and date for the h2 so will have to add together in js -->
-      <p id="city-temp"></p>
-      <p id="wind-speed"></p>
-      <p id="humidty"></p>
+    <!-- figured out how to manipulate DOM with JS -->
+    <div id="current-weather">
+      <h2>Current Weather:</h2>
+      <div id="current-weather-content"></div>
     </div>
-
-    <div id="five-day-container">
-      <h3>Five day forecast</h3>
-      <div id="five-day-cards"></div>
+    
+    <div id="forecast">
+      <h2>5 Day Forecast</h2>
+      <div id="forecast-content"></div>
+    </div>
+    
+    <div id="past-searches">
+      <h2>Past Searches</h2>
+      <ul id="past-search-list"></ul>
     </div>
   </main>
+  
   <script src="./assets/script.js"></script>
 </body>
 </html>
