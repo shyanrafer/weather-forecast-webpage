@@ -29,10 +29,17 @@ openweathermap provided loads of insight on calling weather data as well as mani
 - forecast call
 - icon call
 
-This challenge was lovely in that it made me really think out the layout of the functions on my JavaScript page. With the last assignment, we were provided a template of functions and by the names one could deduce what contents to fill the function with. For this challenge, that wasn't the case. We had to build the website from scratch. Initially I launched into the site build with a certain direction in mind but after seeing the video listed above I changed up my html and subsequent JavaScript approach. Also, for this portion, I worried most about function. The layout isn't exactly like the model provided, but positioning of elements is still something I am coming to terms with. I provided styling both via JavaScript as well as with CSS. Local storage was utilized to store past searches and then also reapply past searches by resubmitting them through the fetchLocationData and subsequent functions
+This challenge was lovely in that it made me really think out the layout of the functions on my JavaScript page. With the
+last assignment, we were provided a template of functions and by the names one could deduce what contents to fill the 
+function with. For this challenge, that wasn't the case. We had to build the website from scratch. Initially I launched 
+into the site build with a certain direction in mind but after seeing the video listed above I changed up my html and 
+subsequent JavaScript approach. Also, for this portion, I worried most about function. The layout isn't exactly like the 
+model provided, but positioning of elements is still something I am coming to terms with. I provided styling both via 
+JavaScript as well as with CSS. Local storage was utilized to store past searches and then also reapply past searches by 
+resubmitting them through the fetchLocationData and subsequent functions.
 
 Deployed link: https://shyanrafer.github.io/weather-forecast-webpage/
 Github repo: https://github.com/shyanrafer/weather-forecast-webpage
 
 Webpage screenshot
-![alt text](<assets/Screenshot 2024-06-10 at 1.52.06 PM.png>)
+https://github.com/shyanrafer/weather-forecast-webpage/blob/main/assets/Screenshot%202024-06-10%20at%201.52.06%E2%80%AFPM.png
