@@ -105,7 +105,6 @@ function fetchForecastData(lat, lon) {
 
 // data in this fx is gathered from initial search being turned into lat and lon coordinates that was then passed through a fetch location data fx.
 function displayCurrentWeather(data) {
-  console.log(data)
   const weatherContent = document.getElementById('current-weather-content');
   const iconCode = data.weather[0].icon;
   const iconUrl = `http://openweathermap.org/img/wn/${iconCode}@2x.png`;
