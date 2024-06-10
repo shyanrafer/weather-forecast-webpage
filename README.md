@@ -35,7 +35,4 @@ Deployed link: https://shyanrafer.github.io/weather-forecast-webpage/
 Github repo: https://github.com/shyanrafer/weather-forecast-webpage
 
 Webpage screenshot
-![alt text](assets/06-server-side-apis-homework-demo.png)
-
-
-
+![alt text](<assets/Screenshot 2024-06-10 at 1.52.06 PM.png>)
